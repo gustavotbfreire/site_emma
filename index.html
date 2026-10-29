@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EMMA Engenharia de Precisão | Controle Dimensional, As-Built e Digital Twin</title>
+  <meta name="description" content="Consultoria de engenharia nascida na COPPE/UFRJ. Controle dimensional, escaneamento a laser, As-Built, Digital Twin e transformação digital para óleo e gás e indústria.">
+  <meta property="og:title" content="EMMA Engenharia de Precisão">
+  <meta property="og:description" content="Engenharia sob medida: controle dimensional, As-Built e Digital Twin desde 2012.">
+  <meta property="og:image" content="assets/img/quem-somos.jpg">
+  <meta name="theme-color" content="#0d1117">
+  <link rel="icon" href="assets/img/icone.png">
+  <link rel="alternate" hreflang="pt-BR" href="./">
+  <link rel="alternate" hreflang="en-GB" href="en/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="topo" id="topo">
+  <div class="wrap topo-inner">
+    <a href="#inicio" class="marca" aria-label="EMMA Engenharia de Precisão, início">
+      <img src="assets/img/logo.png" alt="EMMA Engenharia de Precisão" width="918" height="533">
+    </a>
+    <button class="menu-btn" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav">
+      <span></span><span></span>
+    </button>
+    <nav id="nav" class="nav">
+      <a href="#sobre">Quem somos</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#trabalhos">Trabalhos</a>
+      <a href="#processo">Como trabalhamos</a>
+      <a href="en/" class="idioma mono" hreflang="en-GB" lang="en-GB" title="English version"><b>PT</b> / EN</a>
+      <a href="#contato" class="btn btn-sm">Fale conosco</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <canvas id="nuvem" aria-hidden="true"></canvas>
+    <div class="wrap hero-inner">
+      <p class="tag mono">// Consultoria em engenharia · desde 2012</p>
+      <h1>Engenharia<br><span class="destaque">sob medida.</span></h1>
+      <p class="lead">Medimos, escaneamos e modelamos ativos industriais com precisão milimétrica. Do controle dimensional ao Digital Twin, sem retrabalho e dentro do prazo.</p>
+      <div class="hero-acoes">
+        <a href="#contato" class="btn">Solicitar orçamento</a>
+        <a href="#servicos" class="btn btn-ghost">Ver serviços</a>
+      </div>
+      <dl class="numeros">
+        <div><dt class="mono">Fundada</dt><dd>2012</dd></div>
+        <div><dt class="mono">Origem</dt><dd>COPPE/UFRJ</dd></div>
+        <div><dt class="mono">Óleo &amp; gás</dt><dd>+10 anos</dd></div>
+      </dl>
+    </div>
+    <div class="hero-coord mono" aria-hidden="true">
+      <span>X <b id="cx">0.000</b></span>
+      <span>Y <b id="cy">0.000</b></span>
+      <span>Z <b id="cz">0.000</b></span>
+      <span>±0.5 mm</span>
+    </div>
+  </section>
+
+  <!-- SOBRE -->
+  <section class="secao" id="sobre">
+    <div class="wrap sobre">
+      <div class="sobre-img revelar">
+        <img src="assets/img/quem-somos.jpg" alt="Engenheiros conversando em um ambiente industrial" loading="lazy">
+        <div class="selo mono">COPPE<br>UFRJ</div>
+      </div>
+      <div class="sobre-txt revelar">
+        <p class="rotulo mono">01 — Quem somos</p>
+        <h2>Mais que uma empresa de engenharia: uma consultoria em inovação.</h2>
+        <p>A EMMA nasceu em 2012 dentro da COPPE/UFRJ e atua há mais de dez anos no setor de óleo e gás como braço de engenharia da HiCad Brasil.</p>
+        <p>Fazemos a ponte entre grandes empresas que precisam de soluções inovadoras e pequenas empresas e startups que buscam espaço para apresentar suas ideias. Acreditamos que nenhum desafio é impossível e que todo problema tem mais de uma solução.</p>
+        <ul class="lista-check">
+          <li>Equipe e rede de parceiros em todas as disciplinas da engenharia</li>
+          <li>Desenvolvimento de tecnologia com laboratórios da COPPE/UFRJ</li>
+          <li>Atendimento completo, sem o custo de um intermediário</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVIÇOS -->
+  <section class="secao secao-escura" id="servicos">
+    <div class="wrap">
+      <div class="cabeca revelar">
+        <p class="rotulo mono">02 — Serviços</p>
+        <h2>O que fazemos</h2>
+        <p class="sub">Três frentes que se complementam: medir com precisão, digitalizar o que existe e desenhar a solução certa para cada cliente.</p>
+      </div>
+
+      <div class="servicos">
+        <article class="servico revelar">
+          <div class="servico-ico" aria-hidden="true">
+            <svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="17"/><path d="M24 3v10M24 35v10M3 24h10M35 24h10"/><circle cx="24" cy="24" r="3"/></svg>
+          </div>
+          <h3>Controle Dimensional</h3>
+          <p>Medição precisa de peças, submontagens e equipamentos completos. Menos retrabalho, menos ajustes de última hora, menor custo de mão de obra e mais qualidade na montagem.</p>
+          <ul>
+            <li>Controle dimensional de montagem</li>
+            <li>Controle de fabricação</li>
+            <li>Análise de interferências</li>
+            <li>Levantamento topográfico</li>
+          </ul>
+        </article>
+
+        <article class="servico revelar">
+          <div class="servico-ico" aria-hidden="true">
+            <svg viewBox="0 0 48 48"><path d="M6 34l18 10 18-10V14L24 4 6 14z"/><path d="M6 14l18 10 18-10M24 24v20"/></svg>
+          </div>
+          <h3>As-Built &amp; Digital Twin</h3>
+          <p>Escaneamento a laser e modelagem 3D de plantas, plataformas e terminais. Documentação fiel do que foi construído e uma réplica digital pronta para projetos, manutenção e operação.</p>
+          <ul>
+            <li>Escaneamento a laser 3D</li>
+            <li>Nuvem de pontos e modelagem</li>
+            <li>Documentação As-Built</li>
+            <li>Digital Twin</li>
+          </ul>
+        </article>
+
+        <article class="servico revelar">
+          <div class="servico-ico" aria-hidden="true">
+            <svg viewBox="0 0 48 48"><path d="M24 4a14 14 0 0 0-8 25.5V36h16v-6.5A14 14 0 0 0 24 4z"/><path d="M18 42h12M21 36V24l3 3 3-3v12"/></svg>
+          </div>
+          <h3>Consultoria &amp; Transformação Digital</h3>
+          <p>Soluções sob medida que adaptam as tecnologias mais inovadoras do mercado à realidade de cada cliente. De um projeto simples de medição até a integração de IIoT.</p>
+          <ul>
+            <li>Integração de IIoT</li>
+            <li>Novas tecnologias com a COPPE/UFRJ</li>
+            <li>Adaptação de equipamentos</li>
+            <li>Parcerias técnicas</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRABALHOS -->
+  <section class="secao" id="trabalhos">
+    <div class="wrap">
+      <div class="cabeca revelar">
+        <p class="rotulo mono">03 — Trabalhos</p>
+        <h2>Projetos entregues</h2>
+        <p class="sub">Alguns trabalhos realizados em campo, em terra e offshore.</p>
+      </div>
+
+      <div class="trabalhos">
+        <article class="trabalho revelar">
+          <div class="trabalho-img"><img src="assets/img/trabalho-p53-flare.jpg" alt="Técnico trabalhando na base do flare da Plataforma P-53" loading="lazy"></div>
+          <div class="trabalho-txt">
+            <p class="mono meta">Offshore · Controle dimensional</p>
+            <h3>Plataforma P-53</h3>
+            <p>Controle dimensional na instalação de um flare de 50 metros.</p>
+          </div>
+        </article>
+        <article class="trabalho revelar">
+          <div class="trabalho-img"><img src="assets/img/trabalho-p53-scan.jpg" alt="Nuvem de pontos do deck da Plataforma P-53" loading="lazy"></div>
+          <div class="trabalho-txt">
+            <p class="mono meta">Offshore · Escaneamento 3D</p>
+            <h3>Plataforma P-53</h3>
+            <p>Escaneamento e modelagem de todo o deck da plataforma.</p>
+          </div>
+        </article>
+        <article class="trabalho revelar">
+          <div class="trabalho-img"><img src="assets/img/trabalho-teduc.jpg" alt="Estrutura de carregamento do Terminal TEDUC" loading="lazy"></div>
+          <div class="trabalho-txt">
+            <p class="mono meta">Onshore · As-Built</p>
+            <h3>BR Distribuidora — TEDUC</h3>
+            <p>As-Built do Terminal de Abastecimento de Duque de Caxias.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESSO -->
+  <section class="secao secao-clara" id="processo">
+    <div class="wrap">
+      <div class="cabeca revelar">
+        <p class="rotulo mono">04 — Como trabalhamos</p>
+        <h2>Do desafio à entrega</h2>
+      </div>
+      <ol class="passos">
+        <li class="revelar"><span class="mono">01</span><h3>Diagnóstico</h3><p>Entendemos o problema, o ativo e as restrições de prazo e operação.</p></li>
+        <li class="revelar"><span class="mono">02</span><h3>Solução sob medida</h3><p>Escolhemos tecnologia e parceiros certos para o caso, não o contrário.</p></li>
+        <li class="revelar"><span class="mono">03</span><h3>Campo</h3><p>Medição, escaneamento e acompanhamento com segurança e precisão.</p></li>
+        <li class="revelar"><span class="mono">04</span><h3>Entrega</h3><p>Relatórios, modelos 3D e dados prontos para decisão, no prazo combinado.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- CTA / CONTATO -->
+  <section class="secao secao-escura" id="contato">
+    <div class="wrap contato">
+      <div class="contato-txt revelar">
+        <p class="rotulo mono">05 — Contato</p>
+        <h2>Tem um desafio de engenharia?</h2>
+        <p class="sub">Conte o que você precisa. Respondemos com uma proposta sob medida.</p>
+        <ul class="contato-dados">
+          <li>
+            <span class="mono">Telefone</span>
+            <a href="tel:+552135531420">(21) 3553-1420</a>
+          </li>
+          <li>
+            <span class="mono">E-mail</span>
+            <a href="mailto:emmatech@emmatech.com.br">emmatech@emmatech.com.br</a>
+          </li>
+          <li>
+            <span class="mono">Endereço</span>
+            <a href="https://www.google.com/maps/search/?api=1&query=Av.+Franklin+Roosevelt,+194,+Centro,+Rio+de+Janeiro" target="_blank" rel="noopener">Av. Franklin Roosevelt, 194 / 902<br>Centro, Rio de Janeiro – RJ</a>
+          </li>
+        </ul>
+      </div>
+
+      <form class="form revelar" id="form-contato" name="contato" method="POST" data-netlify="true" netlify-honeypot="bot-field" novalidate>
+        <input type="hidden" name="form-name" value="contato">
+        <input type="hidden" name="subject" value="Contato pelo site EMMA">
+        <input type="hidden" name="idioma" value="Português">
+        <p class="escondido"><label>Não preencha este campo <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
+        <div class="campo">
+          <label for="f-nome">Nome</label>
+          <input id="f-nome" name="nome" type="text" autocomplete="name" required>
+        </div>
+        <div class="campo-duplo">
+          <div class="campo">
+            <label for="f-empresa">Empresa</label>
+            <input id="f-empresa" name="empresa" type="text" autocomplete="organization">
+          </div>
+          <div class="campo">
+            <label for="f-tel">Telefone</label>
+            <input id="f-tel" name="telefone" type="tel" autocomplete="tel">
+          </div>
+        </div>
+        <div class="campo">
+          <label for="f-email">E-mail</label>
+          <input id="f-email" name="email" type="email" autocomplete="email" required>
+        </div>
+        <div class="campo">
+          <label for="f-servico">Interesse</label>
+          <select id="f-servico" name="servico">
+            <option>Controle Dimensional</option>
+            <option>As-Built &amp; Digital Twin</option>
+            <option>Consultoria &amp; Transformação Digital</option>
+            <option>Outro</option>
+          </select>
+        </div>
+        <div class="campo">
+          <label for="f-msg">Mensagem</label>
+          <textarea id="f-msg" name="mensagem" rows="4" required></textarea>
+        </div>
+        <button class="btn btn-full" type="submit">Enviar mensagem</button>
+        <p class="form-nota" id="form-nota" role="status"></p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="rodape">
+  <div class="wrap rodape-inner">
+    <img src="assets/img/logo.png" alt="EMMA Engenharia de Precisão" class="rodape-logo" width="918" height="533" loading="lazy">
+    <p>© <span id="ano">2026</span> EMMA Engenharia de Precisão · Rio de Janeiro</p>
+    <a href="#inicio" class="mono">Voltar ao topo ↑</a>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

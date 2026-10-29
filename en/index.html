@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EMMA Precision Engineering | Dimensional Control, As-Built and Digital Twin</title>
+  <meta name="description" content="Engineering consultancy founded at COPPE/UFRJ. Dimensional control, laser scanning, As-Built, Digital Twin and digital transformation for oil and gas and industry.">
+  <meta property="og:title" content="EMMA Precision Engineering">
+  <meta property="og:description" content="Tailored engineering: dimensional control, As-Built and Digital Twin since 2012.">
+  <meta property="og:image" content="../assets/img/quem-somos.jpg">
+  <meta name="theme-color" content="#0d1117">
+  <link rel="icon" href="../assets/img/icone.png">
+  <link rel="alternate" hreflang="pt-BR" href="../">
+  <link rel="alternate" hreflang="en-GB" href="./">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<header class="topo" id="topo">
+  <div class="wrap topo-inner">
+    <a href="#inicio" class="marca" aria-label="EMMA Precision Engineering, home">
+      <img src="../assets/img/logo.png" alt="EMMA Engenharia de Precisão" width="918" height="533">
+    </a>
+    <button class="menu-btn" aria-label="Open menu" aria-expanded="false" aria-controls="nav">
+      <span></span><span></span>
+    </button>
+    <nav id="nav" class="nav">
+      <a href="#sobre">About us</a>
+      <a href="#servicos">Services</a>
+      <a href="#trabalhos">Projects</a>
+      <a href="#processo">How we work</a>
+      <a href="../" class="idioma mono" hreflang="pt-BR" lang="pt-BR" title="Versão em português">PT / <b>EN</b></a>
+      <a href="#contato" class="btn btn-sm">Get in touch</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <canvas id="nuvem" aria-hidden="true"></canvas>
+    <div class="wrap hero-inner">
+      <p class="tag mono">// Engineering consultancy · since 2012</p>
+      <h1>Tailored<br><span class="destaque">engineering.</span></h1>
+      <p class="lead">We measure, scan and model industrial assets with millimetre precision. From dimensional control to Digital Twin, with no rework and on schedule.</p>
+      <div class="hero-acoes">
+        <a href="#contato" class="btn">Request a quote</a>
+        <a href="#servicos" class="btn btn-ghost">Our services</a>
+      </div>
+      <dl class="numeros">
+        <div><dt class="mono">Founded</dt><dd>2012</dd></div>
+        <div><dt class="mono">Origin</dt><dd>COPPE/UFRJ</dd></div>
+        <div><dt class="mono">Oil &amp; gas</dt><dd>10+ years</dd></div>
+      </dl>
+    </div>
+    <div class="hero-coord mono" aria-hidden="true">
+      <span>X <b id="cx">0.000</b></span>
+      <span>Y <b id="cy">0.000</b></span>
+      <span>Z <b id="cz">0.000</b></span>
+      <span>±0.5 mm</span>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="secao" id="sobre">
+    <div class="wrap sobre">
+      <div class="sobre-img revelar">
+        <img src="../assets/img/quem-somos.jpg" alt="Two engineers talking in an industrial facility" loading="lazy">
+        <div class="selo mono">COPPE<br>UFRJ</div>
+      </div>
+      <div class="sobre-txt revelar">
+        <p class="rotulo mono">01 — About us</p>
+        <h2>More than an engineering firm: an innovation consultancy.</h2>
+        <p>EMMA was founded in 2012 at COPPE/UFRJ, the engineering research institute of the Federal University of Rio de Janeiro, and has spent more than ten years in the oil and gas sector as the engineering arm of HiCad Brasil.</p>
+        <p>We bridge the gap between large companies that need innovative solutions and small businesses and start-ups looking for a way to present their ideas. We believe no challenge is impossible and that every problem has more than one solution.</p>
+        <ul class="lista-check">
+          <li>A team and partner network covering every engineering discipline</li>
+          <li>Technology development with COPPE/UFRJ laboratories</li>
+          <li>End-to-end service, without the cost of a middleman</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="secao secao-escura" id="servicos">
+    <div class="wrap">
+      <div class="cabeca revelar">
+        <p class="rotulo mono">02 — Services</p>
+        <h2>What we do</h2>
+        <p class="sub">Three complementary areas: measuring with precision, digitising what already exists and designing the right solution for each client.</p>
+      </div>
+
+      <div class="servicos">
+        <article class="servico revelar">
+          <div class="servico-ico" aria-hidden="true">
+            <svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="17"/><path d="M24 3v10M24 35v10M3 24h10M35 24h10"/><circle cx="24" cy="24" r="3"/></svg>
+          </div>
+          <h3>Dimensional Control</h3>
+          <p>Precise measurement of parts, sub-assemblies and complete equipment. Less rework, fewer last-minute adjustments, lower labour costs and higher-quality assembly.</p>
+          <ul>
+            <li>Assembly dimensional control</li>
+            <li>Fabrication control</li>
+            <li>Clash analysis</li>
+            <li>Topographic surveying</li>
+          </ul>
+        </article>
+
+        <article class="servico revelar">
+          <div class="servico-ico" aria-hidden="true">
+            <svg viewBox="0 0 48 48"><path d="M6 34l18 10 18-10V14L24 4 6 14z"/><path d="M6 14l18 10 18-10M24 24v20"/></svg>
+          </div>
+          <h3>As-Built &amp; Digital Twin</h3>
+          <p>3D laser scanning and modelling of plants, platforms and terminals. Accurate documentation of what was actually built, and a digital replica ready for design, maintenance and operations.</p>
+          <ul>
+            <li>3D laser scanning</li>
+            <li>Point clouds and modelling</li>
+            <li>As-Built documentation</li>
+            <li>Digital Twin</li>
+          </ul>
+        </article>
+
+        <article class="servico revelar">
+          <div class="servico-ico" aria-hidden="true">
+            <svg viewBox="0 0 48 48"><path d="M24 4a14 14 0 0 0-8 25.5V36h16v-6.5A14 14 0 0 0 24 4z"/><path d="M18 42h12M21 36V24l3 3 3-3v12"/></svg>
+          </div>
+          <h3>Consultancy &amp; Digital Transformation</h3>
+          <p>Tailored solutions that adapt the most innovative technologies on the market to each client's reality. From a simple measurement project to full IIoT integration.</p>
+          <ul>
+            <li>IIoT integration</li>
+            <li>New technologies with COPPE/UFRJ</li>
+            <li>Equipment adaptation</li>
+            <li>Technical partnerships</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="secao" id="trabalhos">
+    <div class="wrap">
+      <div class="cabeca revelar">
+        <p class="rotulo mono">03 — Projects</p>
+        <h2>Delivered projects</h2>
+        <p class="sub">A selection of our fieldwork, onshore and offshore.</p>
+      </div>
+
+      <div class="trabalhos">
+        <article class="trabalho revelar">
+          <div class="trabalho-img"><img src="../assets/img/trabalho-p53-flare.jpg" alt="Technician working at the base of the P-53 platform flare" loading="lazy"></div>
+          <div class="trabalho-txt">
+            <p class="mono meta">Offshore · Dimensional control</p>
+            <h3>P-53 Platform</h3>
+            <p>Dimensional control during the installation of a 50-metre flare.</p>
+          </div>
+        </article>
+        <article class="trabalho revelar">
+          <div class="trabalho-img"><img src="../assets/img/trabalho-p53-scan.jpg" alt="Point cloud of the P-53 platform deck" loading="lazy"></div>
+          <div class="trabalho-txt">
+            <p class="mono meta">Offshore · 3D scanning</p>
+            <h3>P-53 Platform</h3>
+            <p>Scanning and modelling of the entire platform deck.</p>
+          </div>
+        </article>
+        <article class="trabalho revelar">
+          <div class="trabalho-img"><img src="../assets/img/trabalho-teduc.jpg" alt="Loading structure at the TEDUC terminal" loading="lazy"></div>
+          <div class="trabalho-txt">
+            <p class="mono meta">Onshore · As-Built</p>
+            <h3>BR Distribuidora — TEDUC</h3>
+            <p>As-Built survey of the Duque de Caxias fuel distribution terminal.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section class="secao secao-clara" id="processo">
+    <div class="wrap">
+      <div class="cabeca revelar">
+        <p class="rotulo mono">04 — How we work</p>
+        <h2>From challenge to delivery</h2>
+      </div>
+      <ol class="passos">
+        <li class="revelar"><span class="mono">01</span><h3>Assessment</h3><p>We understand the problem, the asset and the schedule and operational constraints.</p></li>
+        <li class="revelar"><span class="mono">02</span><h3>Tailored solution</h3><p>We choose the right technology and partners for the job, not the other way round.</p></li>
+        <li class="revelar"><span class="mono">03</span><h3>Fieldwork</h3><p>Measurement, scanning and supervision carried out safely and precisely.</p></li>
+        <li class="revelar"><span class="mono">04</span><h3>Delivery</h3><p>Reports, 3D models and data ready for decision-making, on the agreed date.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="secao secao-escura" id="contato">
+    <div class="wrap contato">
+      <div class="contato-txt revelar">
+        <p class="rotulo mono">05 — Contact</p>
+        <h2>Got an engineering challenge?</h2>
+        <p class="sub">Tell us what you need and we will come back with a tailored proposal.</p>
+        <ul class="contato-dados">
+          <li>
+            <span class="mono">Phone</span>
+            <a href="tel:+552135531420">+55 21 3553-1420</a>
+          </li>
+          <li>
+            <span class="mono">Email</span>
+            <a href="mailto:emmatech@emmatech.com.br">emmatech@emmatech.com.br</a>
+          </li>
+          <li>
+            <span class="mono">Address</span>
+            <a href="https://www.google.com/maps/search/?api=1&query=Av.+Franklin+Roosevelt,+194,+Centro,+Rio+de+Janeiro" target="_blank" rel="noopener">Av. Franklin Roosevelt, 194 / 902<br>Centro, Rio de Janeiro – RJ, Brazil</a>
+          </li>
+        </ul>
+      </div>
+
+      <form class="form revelar" id="form-contato" name="contato" method="POST" data-netlify="true" netlify-honeypot="bot-field" novalidate>
+        <input type="hidden" name="form-name" value="contato">
+        <input type="hidden" name="subject" value="Website enquiry (EN) - EMMA">
+        <input type="hidden" name="idioma" value="English">
+        <p class="escondido"><label>Do not fill in this field <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
+        <div class="campo">
+          <label for="f-nome">Name</label>
+          <input id="f-nome" name="nome" type="text" autocomplete="name" required>
+        </div>
+        <div class="campo-duplo">
+          <div class="campo">
+            <label for="f-empresa">Company</label>
+            <input id="f-empresa" name="empresa" type="text" autocomplete="organization">
+          </div>
+          <div class="campo">
+            <label for="f-tel">Phone</label>
+            <input id="f-tel" name="telefone" type="tel" autocomplete="tel">
+          </div>
+        </div>
+        <div class="campo">
+          <label for="f-email">Email</label>
+          <input id="f-email" name="email" type="email" autocomplete="email" required>
+        </div>
+        <div class="campo">
+          <label for="f-servico">Interest</label>
+          <select id="f-servico" name="servico">
+            <option>Dimensional Control</option>
+            <option>As-Built &amp; Digital Twin</option>
+            <option>Consultancy &amp; Digital Transformation</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div class="campo">
+          <label for="f-msg">Message</label>
+          <textarea id="f-msg" name="mensagem" rows="4" required></textarea>
+        </div>
+        <button class="btn btn-full" type="submit">Send message</button>
+        <p class="form-nota" id="form-nota" role="status"></p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="rodape">
+  <div class="wrap rodape-inner">
+    <img src="../assets/img/logo.png" alt="EMMA Engenharia de Precisão" class="rodape-logo" width="918" height="533" loading="lazy">
+    <p>© <span id="ano">2026</span> EMMA Engenharia de Precisão · Rio de Janeiro, Brazil</p>
+    <a href="#inicio" class="mono">Back to top ↑</a>
+  </div>
+</footer>
+
+<script src="../js/main.js"></script>
+</body>
+</html>
